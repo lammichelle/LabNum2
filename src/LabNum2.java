@@ -8,9 +8,9 @@ public class LabNum2 {
 
 		Scanner scnr = new Scanner(System.in);
 
-		String answer; // has to be placed outside of the do loop
+		String answer; // created a string for later uses, and has to be placed outside of the do loop
 
-		do {
+		do { //do while loop 
 
 			System.out.println("Enter Length: ");
 			double length = scnr.nextDouble();
@@ -34,12 +34,13 @@ public class LabNum2 {
 
 			// scnr.nextLine(); - can also use garbage line when changing numeric type to
 			// string - the LINE is main point
-			answer = scnr.next(); // alternative scnr.nextLine();
+			answer = scnr.next(); 
+			// alternative is scnr.nextLine();
 
 			if (answer.equalsIgnoreCase("no")) {
 				break;
 			}
-		} while (answer.equalsIgnoreCase("yes"));
+		} while (answer.equalsIgnoreCase("yes")); //continues looping
 
 	}
 }

@@ -63,8 +63,9 @@ public class HelloWorld {
 		String words = "this is a sentence";
 		words += " and I added some words!"; // += means it combines the same variable together
 		
+		//implicit casting
 		short age = 35; 
-		double myAge = age; // implicit casting 
+		double myAge = age; S
 		
 		//explicit casting 
 		//when going from larger to smaller types 
